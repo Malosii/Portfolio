@@ -829,11 +829,11 @@ function Home() {
                 <div className="experience-heading">
                   <div>
                     <span className="small-label">
-                      JUL 2024 — SEP 2024
+                      May 2024 — AUG 2024 · BRAGA, PORTUGAL
                     </span>
 
                     <h3>Cashier</h3>
-                    <h4>Continente Modelo</h4>
+                    <h4>Agro Barro Simões</h4>
                   </div>
                 </div>
 
@@ -856,11 +856,11 @@ function Home() {
                 <div className="experience-heading">
                   <div>
                     <span className="small-label">
-                      AUG 2023 — DEC 2023
+                      SEP 2023 — FEB 2024 · BRAGA, PORTUGAL
                     </span>
 
                     <h3>Real Estate Agent</h3>
-                    <h4>ERA Imobiliária</h4>
+                    <h4>Decisões e Soluções</h4>
                   </div>
                 </div>
 
