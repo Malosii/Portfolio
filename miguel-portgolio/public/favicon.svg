@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#080e17"></rect>
+
+  <path d="M0 0h15v2H2v13H0V0ZM64 0v15h-2V2H49V0h15ZM0 64V49h2v13h13v2H0ZM64 64H49v-2h13V49h2v15Z" fill="#1b2939"></path>
+
+  <text x="8" y="38" fill="#f4f6f8" font-family="monospace" font-size="25" font-weight="700">MS</text>
+
+  <rect x="45" y="42" width="10" height="3" fill="#4c82ff"></rect>
+</svg>
