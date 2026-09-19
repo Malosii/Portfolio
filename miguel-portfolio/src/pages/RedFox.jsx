@@ -568,26 +568,17 @@ function RedFox() {
         </div>
       </section>
 
-      {/* =========================
-          NEXT
-      ========================== */}
+      {/* NEXT PROJECT */}
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-      <footer className="fox-next">
-        <Link to="/projects/event-platform">
-          <span>← PREVIOUS PROJECT</span>
-          <strong>EVENT PLATFORM</strong>
-        </Link>
-
-        <Link to="/">
-          <span>INDEX</span>
-          <strong>ALL PROJECTS</strong>
-        </Link>
-
-        <div className="fox-next-disabled">
-          <span>NEXT PROJECT →</span>
-          <strong>INSIDEOUT</strong>
-        </div>
-      </footer>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/insideout">
+      INSIDEOUT SUMMER CAMP →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }

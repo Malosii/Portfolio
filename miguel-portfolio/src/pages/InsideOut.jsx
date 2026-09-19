@@ -526,24 +526,17 @@ function InsideOut() {
         </div>
       </section>
 
-      {/* NEXT */}
+      {/* NEXT PROJECT */}
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-      <footer className="io-next">
-        <Link to="/projects/red-fox">
-          <small>← PREVIOUS PROJECT</small>
-          <strong>THE RED FOX SOCIETY</strong>
-        </Link>
-
-        <Link to="/">
-          <small>INDEX</small>
-          <strong>ALL PROJECTS</strong>
-        </Link>
-
-        <div>
-          <small>NEXT PROJECT →</small>
-          <strong>CINEMA DATABASE</strong>
-        </div>
-      </footer>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/cinema-database">
+      CINEMA DATABASE →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }

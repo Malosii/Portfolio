@@ -758,16 +758,16 @@ function EchoesSummer() {
       </section>
 
       {/* NEXT PROJECT */}
-      <section className="next-project">
-        <Link to="/">← ALL PROJECTS</Link>
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-        <div>
-          <span>NEXT PROJECT</span>
-          <span className="next-project-disabled">
-            EVENT PLATFORM →
-          </span>
-        </div>
-      </section>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/event-platform">
+      EVENT PLATFORM →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }

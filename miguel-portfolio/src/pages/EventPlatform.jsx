@@ -1067,20 +1067,17 @@ function EventPlatform() {
         </div>
       </section>
 
-      <section className="event-next-project">
-        <Link to="/projects/echoes-summer">
-          ← PROJECT 01
-        </Link>
+      {/* NEXT PROJECT */}
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-        <Link to="/">
-          ALL PROJECTS ↑
-        </Link>
-
-        <div>
-          <span>NEXT PROJECT</span>
-          <span>COMING SOON →</span>
-        </div>
-      </section>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/red-fox">
+      RED FOX SOCIETY →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }

@@ -13,9 +13,13 @@ import CinemaDatabase from "./pages/CinemaDatabase";
 import WarehouseSystem from "./pages/WarehouseSystem";
 import NotFound from "./pages/NotFound";
 
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Home />} />
 

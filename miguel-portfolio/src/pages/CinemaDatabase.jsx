@@ -1017,26 +1017,17 @@ function CinemaDatabase() {
         </div>
       </section>
 
-      {/* =========================
-          FOOTER
-      ========================== */}
+      {/* NEXT PROJECT */}
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-      <footer className="cinema-next">
-        <Link to="/projects/insideout">
-          <small>← PREVIOUS PROJECT</small>
-          <strong>INSIDEOUT SUMMER CAMP</strong>
-        </Link>
-
-        <Link to="/">
-          <small>INDEX</small>
-          <strong>ALL PROJECTS</strong>
-        </Link>
-
-        <div>
-          <small>NEXT PROJECT →</small>
-          <strong>WAREHOUSE SYSTEM</strong>
-        </div>
-      </footer>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/warehouse-system">
+      WAREHOUSE SYSTEM →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }

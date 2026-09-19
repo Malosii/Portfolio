@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./WarehouseSystem.css";
 
+
 const functionalRequirements = [
   {
     id: "FR-01",
@@ -1388,24 +1389,17 @@ function WarehouseSystem() {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* NEXT PROJECT */}
+<section className="next-project">
+  <Link to="/">← ALL PROJECTS</Link>
 
-      <footer className="warehouse-next">
-        <Link to="/projects/cinema-database">
-          <small>← PREVIOUS PROJECT</small>
-          <strong>CINEMA DATABASE</strong>
-        </Link>
-
-        <Link to="/">
-          <small>INDEX</small>
-          <strong>ALL PROJECTS</strong>
-        </Link>
-
-        <div>
-          <small>PROJECT 06</small>
-          <strong>END OF SELECTED WORK</strong>
-        </div>
-      </footer>
+  <div>
+    <span>NEXT PROJECT</span>
+    <Link to="/projects/echoes-summer">
+      ECHOES SUMMER '26 →
+    </Link>
+  </div>
+</section>
     </main>
   );
 }
